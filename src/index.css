@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.collapse {
+  visibility: inherit !important;
+}
+
+.vertical-timeline.vertical-timeline--two-columns {
+  width: 100% !important;
+}
+
+.d-flex {
+  justify-content: center;
+  display: flex;
+}
+
+
+.text-center{
+  margin-top: -120px!important;
+  font-size: large;
+}
+

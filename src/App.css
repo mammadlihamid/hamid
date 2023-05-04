@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+.App {
+  background-color: #e2e2e2;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+.nav-link a {
+ color: red;
+}
+
+
+.active span {
+  color: #595959;
+  background-color: rgba(141, 141, 141, 0.234);
+  border-radius: 20px;
+}
+.noDark {
+  isolation: isolate !important
+}
+
+.lang-btn {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 22px;
+}
+
+
+.contact a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 5vh;
+}
+
+.contact a:hover, a:focus {
+  color: #00000034;
+}
+
+.contact  {
+  list-style-type: none;
+}
+
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
+
+.img-thumbnail {
+  transition: transform .25s, visibility .25s ease-in;
+  isolation: isolate;
+}
+
+.img-thumbnail:hover {
+  transform: scale(1.5);
+}
+
+

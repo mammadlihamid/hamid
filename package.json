@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^13.5.0",
     "firebase": "^9.6.8",
     "isexe": "^2.0.0",
-    "react": "^17.0.2",
+    "react": "^18.2.0",
     "react-darkreader": "^1.5.6",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",

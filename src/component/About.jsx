@@ -115,9 +115,6 @@ function About() {
     
   );
 }
-<style>
-  div:empty {
-}
-</style>
+
 
 export default About;

@@ -13,7 +13,6 @@ function Header() {
     setData(lang);
     console.log(data);
   };
-  const [isDark, { toggle }] = useDarkreader(false);
 
   return (
     <div>
@@ -32,7 +31,6 @@ function Header() {
             className="collapse navbar-collapse  justify-content-center"
             id="navbarCollapse"
           >
-            <Switch checked={isDark} onChange={toggle} />
             <div className="">
               <div className="navbar-nav">
                 <IntlProvider locale={data} messages={nav[data]}>

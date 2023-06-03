@@ -3,7 +3,6 @@ import { NavLink, Outlet } from "react-router-dom";
 import { useData } from "../Context/DataContext";
 import { IntlProvider, FormattedMessage } from "react-intl";
 import { nav } from "./lang/Langs";
-import { Switch, useDarkreader } from "react-darkreader"; 
   
 
 
